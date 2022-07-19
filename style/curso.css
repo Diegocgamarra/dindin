@@ -41,4 +41,56 @@
   max-width: 700px;
   padding: 20px;
 }
-/*CONTATO*/
+/*TABLETS*/
+@media(max-width: 768px){
+  #aulas{
+    width: 100%;
+    padding: 20px;
+  }
+  .right-aula-detalhe{
+    max-width: 300px;
+  }
+  #curso-hero{
+    max-width: 100%;
+    padding: 150px 40px 30px 40px;
+  }
+  #curso-left{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+  }
+  #curso-right{
+    width: 250px;
+    height: 250px;
+    max-width: 500px;
+  }
+}
+/*SMARTPHONES*/
+@media (max-width:425px){
+  #curso-hero{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 120px 30px 20x 30px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #curso-left{
+    max-width: 100%;
+    align-items: center;
+  }
+  #curso-left h2{
+    text-align: center;
+  }
+  #curso-left p{
+    text-align: center;
+  }
+  #curso-right{
+    display: none;
+  }
+  .aula-detalhe{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 40px 0px;
+  }
+}
