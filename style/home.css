@@ -120,6 +120,7 @@ transition: background-color 0.5s;
   font-weight: 700;
   font-size: 18px;
   }
+  
 #about-base{
   display: flex;
   flex-direction: column;
