@@ -41,3 +41,49 @@
   font-size: 22px;
   text-decoration:underline;
 }
+/*TABLETS*/
+@media(max-width:768px){
+  #blog-head{
+    justify-content: space-between;
+
+  }
+  #blog-head-left{
+    width: 300px;
+  }
+  .row-posts{
+    width: 100%;
+    padding: 30px 20px;
+  }
+}
+/*SMARTPHONES*/
+@media(max-width:425px){
+  #blog-head-left{
+    width: 100%;
+  }
+  #blog-head-left h2{
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  #blog-head-left p{
+    text-align: center;
+  }
+  #blog-head-right{
+    display:none;
+  }
+  .row-posts{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .blog-post{
+    padding: 40px 0px;
+  }
+  .blog-post h3{
+    text-align: center;
+  }
+  .blog-post p{
+    text-align: center;
+  }
+  
+
+}
