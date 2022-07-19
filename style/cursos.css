@@ -72,3 +72,26 @@
   text-decoration: none;
   color: white;
 }
+/*TABLETS*/
+@media (max-width: 768px) {
+  #cursos{
+    max-width: 100%;
+    padding: 40px 20px;
+  }
+  #left-curso-img1, #left-curso-img2, #left-curso-img3{
+    width: 200px;
+    height: 200px;
+  }
+  .right-curso{
+    max-width: 400px;
+  }
+  
+}
+/*SMARTPHONES*/
+@media(max-width:425px){
+  .curso{
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
