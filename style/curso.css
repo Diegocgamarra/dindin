@@ -1,0 +1,44 @@
+
+#curso-hero{
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 150px 60px 30px 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+#curso-left{
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+#curso-right{
+  background-image: url('../img/ilustra-investimento.png');
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  max-width: 500px;
+}
+#bg-aulas{
+  background-color: #F6f6f6;
+}
+#aulas{
+  width: 1440px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+.aula-detalhe{
+  display: flex;
+  margin: 0 auto;
+}
+.left-aula-detalhe{
+  padding: 20px;
+}
+.right-aula-detalhe{
+  max-width: 700px;
+  padding: 20px;
+}
+/*CONTATO*/

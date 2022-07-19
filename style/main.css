@@ -38,7 +38,6 @@ header #hcontent{
 #menu ul{
   display: flex;
   list-style: none;
-  /*padding-right: 40px;*/
 }
 #menu li a{
   text-decoration: none;
@@ -97,64 +96,4 @@ color: white;
 border-radius: 62px;
 padding: 10px 30px;
 margin-bottom: 10px;
-}
-/*--------------------CURSOS-----------*/
-
-
-/*--------------------CURSO-----------*/
-#curso-hero{
-  display: flex;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 150px 60px 30px 60px;
-  justify-content: space-between;
-  align-items: center;
-}
-#curso-left{
-  display: flex;
-  flex-direction: column;
-  max-width: 400px;
-}
-#curso-right{
-  background-image: url('./img/ilustra-investimento.png');
-  background-size: cover;
-  width: 400px;
-  height: 400px;
-  max-width: 500px;
-}
-#bg-aulas{
-  background-color: #F6f6f6;
-}
-#aulas{
-  width: 1440px;
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  margin: 0 auto;
-  padding: 40px 20px;
-}
-.aula-detalhe{
-  display: flex;
-  margin: 0 auto;
-}
-.left-aula-detalhe{
-  padding: 20px;
-}
-.right-aula-detalhe{
-  max-width: 700px;
-  padding: 20px;
-}
-/*CONTATO*/
-#contato{
-  display: flex;
-  margin: 0 auto;
-  max-width: 1440px;
-  padding: 150px 40px;
-}
-#contato form input{
-  border-radius: 30px;
-  border: 1px solid #2e2e2e;
-  padding: 10px;
-  width: 350px;
-  margin-bottom: 10px;
 }

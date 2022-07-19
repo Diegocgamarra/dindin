@@ -1,0 +1,34 @@
+#contato{
+  display: flex;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 150px 40px;
+  justify-content: space-around;
+  align-items: center;
+
+}
+#contato form input, textarea{
+  border-radius: 5px;
+  border: 1px solid #2e2e2e;
+  padding: 10px;
+  width: 350px;
+  margin-bottom: 10px;
+}
+#contato form button{
+  cursor: pointer;
+  color: white;
+  background: #FF4081;
+  border-radius: 50px;
+  padding: 10px 60px;
+  border: none;
+}
+
+#contato form button:hover{
+  color: black;
+}
+#contato-right{
+  width: 500px;
+  height: 500px;
+  background-image: url(../img/ilustra-contato.png);
+  background-size: cover;
+}
