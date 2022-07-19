@@ -4,7 +4,7 @@
   max-width: 1440px;
   margin: 0 auto;
   align-items: top;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   padding: 100px 20px 40px 0;
 }
@@ -47,6 +47,7 @@ transition: color 0.5s;
 
 #content2 img{
   max-width: 350px;
+  padding-right: 40px;
 }
 
 #bgservices{
@@ -107,6 +108,14 @@ font-weight: 700;
 font-size: 18px;
 transition: background-color 0.5s;
 }
+.btn-services a{
+  color: white;
+  text-decoration: none;
+}
+.btn-services a:hover{
+  color: #FF4061;
+  text-decoration: none;
+}
 
 .btn-services:hover{
   width: 233px;
@@ -124,7 +133,7 @@ transition: background-color 0.5s;
 #about-base{
   display: flex;
   flex-direction: column;
-  max-width: 940px;
+  max-width: 1440px;
   margin: 0 auto;
   padding-top: 60px;
   width: 100%;
@@ -168,6 +177,12 @@ transition: background-color 0.5s;
   margin: 0 auto;
   align-items: center;
 }
+.img-content{
+  width: 280px;
+  height: 150px;
+  background-image: url(../img/post-blog-pig.jpeg);
+  background-size: cover;
+}
 
 #content h2{
   padding: 40px 10px;
@@ -179,10 +194,16 @@ transition: background-color 0.5s;
   padding: 0 10px;
   justify-content: space-between;
 }
+.iner-content{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 10px;
+}
 
 .iner-content h3{
   color: #009688;
-  padding: 10px 0;
+  padding: 10px 10px;
 }
 
 #content button{
@@ -206,4 +227,101 @@ transition: background-color 0.5s;
   border-radius: 60px;
   margin-bottom: 60px;
   transition: background-color 0.5s;
+}
+
+/*-------------TABLET----------*/
+@media(max-width: 768px){
+  .top{
+    max-width: 768px;
+    align-items: center;
+    justify-content: space-around;
+  }
+  #content2 img{
+    max-width: 260px;
+  }
+  .service{
+    max-width: 180px;
+  }
+  #imgcontainer1{
+    width: 120px;
+    height: 120px;
+  }
+  
+  #imgcontainer2{
+    width: 120px;
+    height: 120px;
+  }
+  
+  #imgcontainer3{
+    width: 120px;
+    height: 120px;
+  }
+  #about-base{
+    max-width: 768px;
+    padding: 60px 40px;
+    width: 100%;
+  }
+  .about-item{
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  .iner-content{
+    width: 200px;
+    padding: 5px;
+  }
+  .img-content{
+    width: 180px;
+    height: 120px;
+  }
+}
+/*----SMARTPHONE-----*/
+@media (max-width: 425px){
+  .top{
+    max-width: 100%;
+    align-items: center;
+  }
+  #content1{
+    max-width: 100%;
+    padding: 80px 40px 20px 40px;
+    align-items: center;
+  }
+  #content1 h1{
+    color: #FF4061;
+    font-size: 36px;
+    text-align: center;
+  }
+  #content2{
+    display: none;
+  }
+  #services{
+    max-width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  .service{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+  }
+  .about-item{
+    max-width: 100%;
+    padding: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #contents{
+    flex-direction: column;
+    padding: 20px 20px;
+  }
+  .iner-content{
+    width: 400px;
+    padding: 50px 20px;
+  }
+  .img-content{
+    width: 380px;
+    height: 240px;
+  }
 }

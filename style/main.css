@@ -74,8 +74,8 @@ footer{
 }
 #menu-footer ul{
   list-style: none;
-
 }
+
 #menu-footer ul li a{
   text-decoration: none;
   text-transform: lowercase;
@@ -96,4 +96,34 @@ color: white;
 border-radius: 62px;
 padding: 10px 30px;
 margin-bottom: 10px;
+}
+
+/*----SMARTPHONE-----*/
+
+
+@media (max-width: 425px){
+  /*HEADER*/
+  header #hcontent{
+    flex-direction: column;
+  }
+  #menu ul{
+    padding: 20px 10px;
+  }
+  #menu li{
+    font-size: 20px;
+    padding: 0px 20px;
+  }
+  /*FOOTER*/
+  #footer-content{
+    flex-direction: column;
+  }
+  #menu-footer ul{
+    display: flex;
+  }
+  #button-footer{
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px 5px;
+  }
+
 }
