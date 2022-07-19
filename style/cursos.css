@@ -1,0 +1,74 @@
+#top-cursos{
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 150px 40px 20px 40px;
+}
+#top-cursos h2{
+  color: #FF4061;
+  font-size: 42px;
+}
+#cursos{
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 80px 40px 80px 40px;
+}
+.curso{
+  display: flex;
+  margin: 40px 20px 80px 20px;
+}
+#left-curso-img1{
+  width: 300px;
+  height: 300px;
+  background-image: url('../img/ilustra-poupando.png');
+  background-size: cover;
+  margin-right: 20px;
+}
+
+#left-curso-img2{
+  width: 300px;
+  height: 300px;
+  background-image: url('../img/ilustra-investimento.png');
+  background-size: cover;
+  margin-right: 20px;
+}
+
+#left-curso-img3{
+  width: 300px;
+  height: 300px;
+  background-image: url('../img/ilustra-independencia.png');
+  background-size: cover;
+  margin-right: 20px;
+}
+
+.right-curso{
+  max-width: 640px;
+}
+
+.right-curso h2{
+  color: #FF4061;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.right-curso button{
+  background-color: #2E948A;
+  padding: 10px 40px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 60px;
+  margin: 40px 0;
+  transition: border 0.2s;
+}
+.right-curso button:hover{
+  border: 2px solid #082b28;
+
+}
+
+.link-cursos{
+  text-decoration: none;
+  color: white;
+}
