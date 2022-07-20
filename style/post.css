@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: column;
   width: 1440px;
-  padding: 0 100px
+  padding: 0 100px;
+  margin: 0 auto;
 }
 #post-title{
   padding: 150px 40px 100px 40px;
@@ -101,4 +102,22 @@ transition: background-color 0.5s;
   color: #FF4061;
   font-weight: 700;
   font-size: 18px;
+  }
+  /*TABLET*/
+  @media (max-width:768px){
+    #bg-post{
+      width: 100%;
+      align-items: center;
+    }
+    #post-text{
+      width: 100%;
+      padding: 20px;
+    }
+    #services{
+      flex-wrap: nowrap;
+      max-width: 100%;
+      margin: 0 auto;
+      justify-content: space-between;
+      padding: 20px;
+    }
   }

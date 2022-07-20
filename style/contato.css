@@ -32,3 +32,29 @@
   background-image: url(../img/ilustra-contato.png);
   background-size: cover;
 }
+/*TABLETS*/
+@media(max-width:768px){
+  #contato{
+    max-width: 100%;
+  }
+  #contato form input, textarea{
+    width: 300px;
+  }
+  #contato-right{
+    width: 300px;
+    height: 300px;
+  }
+}
+
+/*SMARTPHONES*/
+@media(max-width:425px){
+  #contato{
+    max-width: 100%;
+  }
+  #contato form input, textarea{
+    width: 300px;
+  }
+  #contato-right{
+    display: none;
+  }
+}
